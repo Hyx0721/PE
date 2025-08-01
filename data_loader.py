@@ -107,7 +107,7 @@ class Splitter:
         return eeg, label, image
 
 
-def data_loader1(opt):    #EXp1
+def data_loader1(opt):    #data for-eXp1
     sample_size = 300
     #顺序数据
     indices = np.arange(sample_size)
@@ -368,7 +368,7 @@ def data_loader1(opt):    #EXp1
 
     return train_dataloader, test_dataloader
 
-def data_loader2(opt):      # EXP2 
+def data_loader2(opt):      # data for-eXp2
                          
     sample_size = 500
     #顺序数据
@@ -487,7 +487,7 @@ def data_loader2(opt):      # EXP2
 
     return train_dataloader, test_dataloader
 
-def data_loader3(opt, brain_region='all'):         #EXp4
+def data_loader3(opt, brain_region='all'):         #data for-eXp4
     """
     脑区通道划分数据加载器 - 基于原data_loader61修改
     
